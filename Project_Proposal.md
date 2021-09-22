@@ -1,4 +1,4 @@
-**Predicting Price of NFT on trade volume, Number of Owners, Number of Assets and the 90 Day Averages** 
+**Predicting Price of NFTs on trade Volume, Number of Owners, Number of Assets and the 90 Day Averages** 
 
 I want to look at the marketplace OpenSea, the largest marketplace for NFTs. From a list of top NFTs ranked by trade volume, I would scrape the website to collect information on the top 1000 NFTs  (as most of these top NFTs are in the Art category, I might decide to break down and look at several, say 5, categories instead: Art, Music, Collectibles, Sports and Virtual Worlds as opposed to “Overall”). My driving question would be if some features of the NFTs are more linearly correlated with the volume of trade on an individual NFT. 
 
