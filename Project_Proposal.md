@@ -1,3 +1,16 @@
+**Predicting Price of NFT on trade volume, Number of Owners, Number of Assets and the 90 Day Averages** 
+
+I want to look at the marketplace OpenSea, the largest marketplace for NFTs. From a list of top NFTs ranked by trade volume, I would scrape the website to collect information on the top 1000 NFTs  (as most of these top NFTs are in the Art category, I might decide to break down and look at several, say 5, categories instead: Art, Music, Collectibles, Sports and Virtual Worlds as opposed to “Overall”). My driving question would be if some features of the NFTs are more linearly correlated with the volume of trade on an individual NFT. 
+
+Data would be scraped from the OpeanSea website. I would first scrape the list of Top NFTs and then go to each page of the particular NFT to get data on it. The individual unit of analysis would be a single NFT collection. My target value would be Floor Price and the features would be Volume of Trade, 24h%change, 7d%change, Floor Price, Number of Owners, Number of Assets, Collection Name (scraped from the collection webpage) and 90 Day Avg. Price, 90 Day Volume, Chains (scraped from the collection’s activity webpage). I want to see what the relationship is between the total number of owners, the total number of assets or the total volume of trade on the price of the NFT. 
+
+I’d also like to look at the creator of the collection, and their production/ collecting history to see if involvement in the community and prolificness makes a difference in terms of the success of the NFT. This might require pulling data from an additional database, which can be a secondary part of this project. 
+
+The MVP would be a series of plots using the linear regression model of SKLearn showing the relationship between the features and the target value of Floor Price. 
+
+<br>
+
+
 **Backup Project** 
 
 For this project, I will be looking at the films that were nominated in any category at the Sundance Film Festival over the last 20 years and compare them to those nominated in the corresponding categories for the Academy Awards. I want to see how many of the independent movies have gone on to win awards at the Academy Awards and how that number/trend has changed over the years. If the correlation is going up, I’d want to predict what would be the ratio for the years to come and if there is a certain type of independent film that goes on to win awards at the Academy Awards.
