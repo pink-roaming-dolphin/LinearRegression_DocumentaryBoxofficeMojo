@@ -17,11 +17,13 @@ scraped from the Wikipedia website.
 Regression will continue by creating dummies from the genres and distributor features and (time permitting) the country of origin of 
 director (the nonnull values on this feature is about 15-20% of the data, so might not be usable). 
 
-Initial linear regression model scores include: 
-Simple scores: 	[0.549, 0.621, 0.45, 0.654, -5.052]
-Ridge scores: 	[0.55, 0.621, 0.449, 0.657, -5.05]
+**Initial linear regression model scores include**: 
+\
+Simple scores: 	[0.549, 0.621, 0.45, 0.654, -5.052] \
+Ridge scores: 	[0.55, 0.621, 0.449, 0.657, -5.05] \
 Polynomial scores: 	[-9.64, 0.464, 0.521, -31.613, -407.5] 
 
-Simple mean cv r^2: -0.556 +- 2.249
-Ridge mean cv r^2: -0.555 +- 2.249
+
+Simple mean cv r^2: -0.556 +- 2.249 \
+Ridge mean cv r^2: -0.555 +- 2.249 \
 Ridge mean cv r^2: -89.554 +- 159.405
