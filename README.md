@@ -2,10 +2,12 @@
 
 
 **Abstract**
+
 In this project, we used data scraped from the Box Office website, Box Office Mojo, to build a model that showed correlations between the success of documentaries and various components of distribution channels. We used the listing that ranks Documentary genre films by Box Office numbers and used the international gross as our target value. The pitch was tailored towards the New York Film Festival (NYFF)’s Production Awards section and their new focus on documentary filmmaking. As the funders of seed production money during the development of the film’s production & distribution strategies, NYFF also advises filmmakers and connects them to their network. So they wanted to see what features correlate highly with the success of viewership for the film as measured by overall (international) gross at the box office. 
 
 
 **Design**
+
 With the above question shaping this project, we set out to look at the features that affect the box office after the production of the movie (the production side is largely shaped by artistic insight and freedom so we wanted to first look at the distribution features; our suggestions are below for what features we would like to model in the future on the production side). The distribution features we chose to model were the max number of theaters that the film was shown in as well as the number at the opening, and the choice of distributor for the film. As we readily had access to the data, we also looked for any correlations between runtime and release year and our chosen target: international gross. We chose to ignore the features domestic gross or gross at opening as these are highly collinear with the international gross (since a majority of measured viewership happens in the US which is where the most industrialized film industry is located). 
 
 We suggest at the end of our project for NYFF to commission us for another project in which we model features on the production side. The features we would like to collect data on on this side would be: Budget (not readily available on the Box Office Box, most probably because documentary filmmaking is rather an independent process). 
@@ -45,4 +47,5 @@ We then scraped Wikipedia in order to collect information on Birthplace, Birthda
 
 
 **Communication**
+
 We presented our findings to the NYFF Production Awards Team with our conclusions and asked them if they would like to continue their modeling on the features affecting the production side. This would involve looking at features such as budget and crew member’s locations. If the models would find that there are correlations on that side, the NYFF Production Team could advise their grantees to keep these features in mind in building their cast/crew. 
